@@ -22,6 +22,17 @@ Honeypot jest jedyną usługą celowo wystawioną publicznie. Panel SIEM-a
 i wszystkie porty wewnętrzne są związane z pętlą lokalną i dostępne
 wyłącznie przez tunel SSH.
 
+## Skala obserwacji
+
+Stan na 18.09.2026, po 11 dniach pracy ciągłej (08–18.09):
+
+| | |
+|---|---|
+| Zdarzenia | 353 930 |
+| Unikalne adresy źródłowe | 1 336 |
+| Sesje | 46 041 |
+| Udział jednego bloku `109.160.32.0/24` | 81% całego ruchu |
+
 ## Zawartość
 
 | Katalog | Co zawiera |
@@ -35,10 +46,40 @@ wyłącznie przez tunel SSH.
 | ID | Poziom | Zdarzenie | MITRE |
 |---|---|---|---|
 | 100101 | 3 | nieudane logowanie | T1110 |
-| 100102 | 6 | przyjęte poświadczenia | T1078 |
+| 100102 | 3 | przyjęte poświadczenia | T1078 |
 | 100103 | 10 | wykonanie komendy | T1059 |
-| 100104 | 12 | próba pobrania pliku | T1105 |
+| 100104 | 6 | zapis pliku na hoście (reguła rodzic) | — |
+| 100105 | 13 | klucz SSH dopisany do `authorized_keys` | T1098.004 |
+| 100106 | 13 | materiał do ruchu bocznego (klucz prywatny, `ssh_config`) | T1021.004 |
+| 100107 | 14 | klucz kampanii Outlaw/Dota (`mdrfckr`) | T1098.004 |
 | 100110–100111 | 3 | kontrola potoku (canary) | — |
+
+## Korekty reguł po weryfikacji na danych
+
+Reguły powstały przed zebraniem materiału i po 11 dniach wymagały poprawek.
+Zapisuję je, bo sposób korygowania detekcji jest częścią pracy, a nie
+błędem do ukrycia.
+
+**100104 — usunięte mapowanie T1105.** Reguła deklarowała *Ingress Tool
+Transfer*. W całym materiale ani jedno zdarzenie nie miało wypełnionego pola
+`url` — pobrania z sieci nie było w ogóle. Cowrie kwalifikuje jako
+`file_download` również przechwycone przekierowanie wyjścia powłoki, co
+pierwotnie zinterpretowałem błędnie. Faktyczne zachowanie to zapis klucza do
+`authorized_keys`, czyli T1098.004. Reguła rodzic nie deklaruje już żadnej
+techniki; mapowania przeniesiono do reguł potomnych 100105–100107.
+
+**100102 — poziom obniżony z 6 na 3.** Cowrie akceptuje niemal każde hasło,
+więc „udane logowanie" jest stanem normalnym czujnika, nie incydentem.
+Na poziomie 6 reguła wygenerowała 43 383 alerty, które niczego nie
+różnicowały.
+
+**100104 — poziom obniżony z 12 na 6.** Po wprowadzeniu reguł potomnych
+o poziomach 13–14 rodzic nie musi sam podnosić wagi.
+
+**Do rozważenia:** 100103 (poziom 10) zadziałała m.in. na 37 579 wykonań
+`uname -s -v -n -r -m`. Rozpoznanie jest stanem normalnym czujnika
+wystawionego do internetu i prawdopodobnie zasługuje na regułę potomną
+o niższym poziomie, zostawiającą 10 dla komend, które faktycznie coś zmieniają.
 
 ## Kontrola działania potoku
 

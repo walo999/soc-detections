@@ -1,6 +1,6 @@
 # PB-001 — Udane logowanie na honeypocie
 
-**Reguła:** 100102 (poziom 6) · MITRE T1078 Valid Accounts
+**Reguła:** 100102 (poziom 3) · MITRE T1078 Valid Accounts
 **Źródło:** Cowrie, `cowrie.login.success`
 
 ## Co widzę
