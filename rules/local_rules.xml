@@ -91,3 +91,12 @@
     <mitre><id>T1098.004</id></mitre>
   </rule>
 </group>
+
+<group name="cowrie,honeypot,recon,">
+  <rule id="100108" level="3">
+    <if_sid>100103</if_sid>
+    <field name="input" type="pcre2">^\s*(/[\w./]*)?(uname|lscpu|nproc|uptime|whoami|hostname|arch|id|w|last|free|df|lspci)( [\w. /-]*)?$</field>
+    <description>Honeypot: rozpoznanie systemu przez $(src_ip)</description>
+    <mitre><id>T1082</id></mitre>
+  </rule>
+</group>

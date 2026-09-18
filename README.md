@@ -52,6 +52,7 @@ Stan na 18.09.2026, po 11 dniach pracy ciągłej (08–18.09):
 | 100105 | 13 | klucz SSH dopisany do `authorized_keys` | T1098.004 |
 | 100106 | 13 | materiał do ruchu bocznego (klucz prywatny, `ssh_config`) | T1021.004 |
 | 100107 | 14 | klucz kampanii Outlaw/Dota (`mdrfckr`) | T1098.004 |
+| 100108 | 3 | rozpoznanie systemu (potomna wobec 100103) | T1082 |
 | 100110–100111 | 3 | kontrola potoku (canary) | — |
 
 ## Korekty reguł po weryfikacji na danych
@@ -76,10 +77,13 @@ różnicowały.
 **100104 — poziom obniżony z 12 na 6.** Po wprowadzeniu reguł potomnych
 o poziomach 13–14 rodzic nie musi sam podnosić wagi.
 
-**Do rozważenia:** 100103 (poziom 10) zadziałała m.in. na 37 579 wykonań
-`uname -s -v -n -r -m`. Rozpoznanie jest stanem normalnym czujnika
-wystawionego do internetu i prawdopodobnie zasługuje na regułę potomną
-o niższym poziomie, zostawiającą 10 dla komend, które faktycznie coś zmieniają.
+**100103 — dodana reguła potomna 100108.** Czyste rozpoznanie systemu
+(`uname`, `lscpu`, `whoami`, `uptime`, `df` i pokrewne) schodzi na poziom 3
+z mapowaniem T1082, a 100103 zostaje na poziomie 10 dla komend zmieniających
+stan systemu. Wzorzec dopuszcza po nazwie komendy wyłącznie spacje, litery,
+cyfry, kropkę, ukośnik i myślnik — pierwszy średnik, potok, `&&` albo `$(`
+przerywa dopasowanie. Bez tego wystarczyłoby dopisać `uname -a;` przed
+właściwym poleceniem, żeby samemu obniżyć sobie poziom alertu.
 
 ## Kontrola działania potoku
 
