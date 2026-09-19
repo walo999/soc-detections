@@ -93,6 +93,13 @@ jedyny sposób sprawdzenia, czy detekcja nadal żyje — cichy SIEM wygląda
 identycznie jak spokojna sieć. Brak zdarzenia kontrolnego przez dobę
 jest sygnałem awarii łańcucha.
 
+## Jak powstało to repozytorium
+
+Lab zbudowałem i utrzymuję samodzielnie. Przy konfiguracji i redakcji korzystałem
+ze wsparcia asystenta AI; wszystkie polecenia wykonałem na własnej maszynie,
+a ustalenia w katalogu `findings/` pochodzą z analizy ruchu zebranego przez ten
+czujnik, nie z przykładów z dokumentacji.
+
 ## Zastrzeżenia
 
 Repozytorium nie zawiera surowych logów ani próbek pobranych przez
