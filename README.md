@@ -24,14 +24,16 @@ wyłącznie przez tunel SSH.
 
 ## Skala obserwacji
 
-Stan na 18.09.2026, po 11 dniach pracy ciągłej (08–18.09):
+Stan na 01.10.2026, po 23 dniach pracy ciągłej (08.09 – 01.10):
 
 | | |
 |---|---|
-| Zdarzenia | 353 930 |
-| Unikalne adresy źródłowe | 1 336 |
-| Sesje | 46 041 |
-| Udział jednego bloku `109.160.32.0/24` | 81% całego ruchu |
+| Zdarzenia | 773 478 |
+| Unikalne adresy źródłowe | 2 987 |
+| Sesje | 100 313 |
+| Udział jednego bloku `109.160.32.0/24` | 80% całego ruchu |
+
+Migawki wcześniejsze: [`docs/historia-projektu.md`](docs/historia-projektu.md).
 
 ## Zawartość
 
@@ -40,6 +42,7 @@ Stan na 18.09.2026, po 11 dniach pracy ciągłej (08–18.09):
 | `rules/` | reguły Wazuha, numery 100100–100111 |
 | `playbooks/` | procedury reagowania, po jednej na regułę |
 | `findings/` | konkretne obserwacje z analizy zebranych danych |
+| `docs/` | utwardzanie systemu, utrzymanie bez nadzoru, historia projektu |
 
 ## Reguły
 
@@ -92,6 +95,20 @@ przez stały login i znacznik w komendzie. Wyciszenie do zera odbiera
 jedyny sposób sprawdzenia, czy detekcja nadal żyje — cichy SIEM wygląda
 identycznie jak spokojna sieć. Brak zdarzenia kontrolnego przez dobę
 jest sygnałem awarii łańcucha.
+
+## Utwardzanie systemu
+
+Host jest oceniany modułem SCA Wazuha względem CIS Debian 13 Benchmark.
+Stan po remediacji: **124 kontrole zaliczone, 66 niezaliczonych (65%)**.
+
+Z pozostałych 66 — 59 jest odrzuconych świadomie, z uzasadnieniem dla każdej,
+a 7 nie da się zaliczyć, bo wzorce w polityce oceny są zakodowane błędnie.
+Pełny rozbiór wraz z kontrolami zastępczymi:
+[`docs/utwardzanie-cis.md`](docs/utwardzanie-cis.md).
+
+Mechanizmy pracy bez nadzoru — timery, czujnik martwego człowieka, wartownik
+stanu systemu, audyt całości:
+[`docs/utrzymanie-bez-nadzoru.md`](docs/utrzymanie-bez-nadzoru.md).
 
 ## Jak powstało to repozytorium
 
