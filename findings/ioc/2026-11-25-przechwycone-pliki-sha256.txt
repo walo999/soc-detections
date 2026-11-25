@@ -1,0 +1,165 @@
+# Pliki przechwycone przez honeypota Cowrie na soc01, wrzesień – listopad 2026
+#
+# Wyłącznie skróty i metadane. Pliki nie były uruchamiane ani wysyłane do
+# zewnętrznych serwisów; próbki zniszczono razem z maszyną 25.11.2026.
+# Lista służy do weryfikacji po skrócie, np. w bazach reputacji plików.
+#
+# Kolumny (oddzielone dwiema spacjami): SHA-256, rozmiar w bajtach,
+# data przechwycenia (czas modyfikacji pliku), typ według file(1)
+# Plików: 137
+#
+# Typy:
+#   65 ELF 64-bit LSB executable, x86-64
+#   24 ELF 32-bit LSB executable, ARM
+#   23 ASCII text
+#   7 Bourne-Again shell script, ASCII text executable
+#   4 ELF 32-bit LSB executable, Intel i386
+#   2 Perl script text executable
+#   2 OpenSSH RSA public key
+#   2 ELF 64-bit LSB executable, ARM aarch64
+#   1 very short file (no magic)
+#   1 empty
+#   1 POSIX shell script, ASCII text executable
+#   1 OpenSSH private key
+#   1 ELF 64-bit MSB executable, MIPS
+#   1 ELF 64-bit LSB executable, UCB RISC-V
+#   1 ELF 32-bit MSB executable, MIPS
+#   1 ELF 32-bit LSB executable, MIPS
+#
+a8460f446be540410004b1a8db4083773fa46f7fe76fa84219c93daa1669f8f2  389  2026-09-08  OpenSSH RSA public key
+00b6f15c2274420217ed3098a9f5f00545bf1793d7a324fd18a7809cbbf5b12b  54  2026-09-09  ASCII text
+d2ef814448347cb299ec2aeb4dfc72856d4ee9abdcd0171ab5ef0bef2d7cf5f1  29818880  2026-09-09  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+43728fbfb98bb39ff61a2db0fc2905bd6937997062b05b9ab8b186fdee18c09a  399  2026-09-09  OpenSSH private key
+ba8af29578e1958950e1fb503f2e663def6495667cd0a0d834ae5b98d992176a  15695872  2026-09-11  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b  1  2026-09-11  very short file (no magic)
+94f2e4d8d4436874785cd14e6e6d403507b8750852f7f2040352069a75da4c00  30304472  2026-09-12  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+2fa74a6224cc121e85fa455decd5907f1d648689bf1bc8915d2737cd7932f446  25  2026-09-14  ASCII text
+6ac5a6ea2bbc8068891068f6865830439c6e433618543032c4764b5593d3355e  25  2026-09-14  ASCII text
+80cce8e51a67e78e7b3f4cc8718f4c5fb78ddc9486be2d813528abd0ea8f07c5  25  2026-09-14  ASCII text
+821f5f18ef3776026c56615d56a9a40c5cf7cfcb6ceda478ad0aeb52f0c27248  25  2026-09-14  ASCII text
+b340a1545cb5bda24c6f7ad04313ce79080bf85b21b74f8f6ae04c3d98fc27b7  25  2026-09-14  ASCII text
+b93ecc3498a3c017f3300e149f13f42ca47963d4d44167a212ff3efd1d1fbbe7  25  2026-09-14  ASCII text
+ea46be88a5d9507e1769e02690e87e21332aaf01da6ab04e4483a47b4db90c62  25  2026-09-14  ASCII text
+fb1b34708a6a82eafe66c696c6bfc5729cb0bc0590a9c1289a88c25d35e83f6a  25  2026-09-14  ASCII text
+409e6be60a200711954b03a747748ea87de1756b2ad9e81fa6454598bdefb065  20807680  2026-09-14  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+1e70b63472772e3f5092ffe9c3573470e73590e6ab6d93fdcede1d368a5fd72d  2126  2026-09-15  Bourne-Again shell script, ASCII text executable
+3f3a11bafabb1a35db913cfe51995f2e357d049e268860175876ae5a93d23892  1157  2026-09-15  Bourne-Again shell script, ASCII text executable
+d70f917e35813a7ae323e6b2b539d6dbbfc3a3a6599f1fed93430b14ca08b141  1448252  2026-09-15  ELF 32-bit LSB executable, ARM, EABI5 version 1 (GNU/Linux),
+8e1a67a5c03b3cd818f046c7a1605afccc0ee5ce437a0d099881f1872b54bc70  1838060  2026-09-15  ELF 32-bit LSB executable, Intel i386, version 1 (GNU/Linux)
+d1cac82f44b54b0fd244a9e4122811e9ae108a197c7a65a20fd2e7552683e68e  1696412  2026-09-15  ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), st
+3f3bf218089d1488617d37f8a5116bb2791eb39ce06a1b5bc9a4cdfe5e94dd39  1759768  2026-09-15  ELF 64-bit LSB executable, UCB RISC-V, RVC, double-float ABI
+6e08a9b19df98e36da4409a8ae5990bde3ed6dc583fbea9f112cbc55421aec59  1146880  2026-09-15  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+ad0a11b87b468cbd4d9555d4f845e9256370ff631f7cafc063d6e0a59e98c777  30179328  2026-09-15  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+f0aa83bbbd2c75e2f71ec16029ee5fcfad59f3a8efa30a500b815f0f6c18d987  1989056  2026-09-15  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+8a68d1c08ea31250063f70b1ccb5051db1f7ab6e17d46e9dd3cc292b9849878b  398  2026-09-15  OpenSSH RSA public key
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  0  2026-09-15  empty
+31384110975802292bbfa8301113a4bb857cc1acb8b820e5459eab283646d79a  1540096  2026-09-17  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+f71546cbd85a93a939eab05f8039d84ac2d6dc539a74b58308c74fad2c712b16  27623424  2026-09-19  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+66f8f315000fe6a2a2e09fba08a867c60f4d330099ab2e94f7bdcb0f0c869377  21299200  2026-09-24  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+6d1fe6ab3cd04ca5d1ab790339ee2b6577553bc042af3b7587ece0c195267c9b  4745  2026-09-26  Bourne-Again shell script, ASCII text executable, with very 
+7cf3855397bd54a838d1445f2a6527169e428021d1e77537dda1ad6ca9ffb4ae  7012352  2026-09-30  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+586960df8bf559ffbba600f11917a99baed4a875cb7faa5eabc060bcde67277b  7295  2026-10-02  Bourne-Again shell script, ASCII text executable
+7b1cbba56bb80e185cdf2097f5716c31d7e0f88f28ad7220b3b5a2cf73859ec8  6734  2026-10-02  Bourne-Again shell script, ASCII text executable
+07c0a0af63dde8dc2e36dc58b630dcad6563263e992877aaa704530afb8a5656  130430  2026-10-02  ELF 32-bit LSB executable, ARM, EABI4 version 1 (SYSV), stat
+718ef7418c3114a560c8d7a6c09691ead65ce59ac28bf80708f440311564807d  173159  2026-10-02  ELF 32-bit LSB executable, ARM, EABI4 version 1 (SYSV), stat
+bcfbd1d0c98844ddd4795a6df4e6431a494a0320c72413f188b50140cd30f506  126259  2026-10-02  ELF 32-bit LSB executable, ARM, EABI4 version 1 (SYSV), stat
+d901442963cc5cc8b3c5cddb1cb7cacd3596b1cbd9916bb01b7f3afceb8251da  164300  2026-10-02  ELF 32-bit LSB executable, ARM, EABI4 version 1 (SYSV), stat
+387d6d1bc5b00c60c64528c6b0ceb34fa7c4a83f6b8cf95f0526adb5cc57389d  103655  2026-10-02  ELF 32-bit LSB executable, ARM, version 1 (ARM), statically 
+73695282607747038a31f516e3f8310a67ae6f2f9e4a0b90b55a40f77272e559  121256  2026-10-02  ELF 32-bit LSB executable, ARM, version 1 (ARM), statically 
+941efe52eb858311653bf2c1e855555cf735896d500f11ea90aaf7e93d1faa3f  111201  2026-10-02  ELF 32-bit LSB executable, ARM, version 1 (ARM), statically 
+cd9655a77201f73e69953ec5b53f898de41983c1b4dcedd0c431955b9c20b241  113710  2026-10-02  ELF 32-bit LSB executable, ARM, version 1 (ARM), statically 
+47b268c21591069bfe4099833ad66b8138a53ab2dcb866e040d466aee1f8624c  163840  2026-10-02  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+326eea0221b61a452173e9a56f515dd42b09f5de5f8f868a33e432e4ea18bc3b  20971520  2026-10-04  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+38d1a81202fb9d1ca5ece1ea1539f2d46b755cc1c9515c51c76783fc6d799b03  211596  2026-10-05  ELF 32-bit LSB executable, ARM, EABI4 version 1 (SYSV), stat
+945afece38f108d7c1c5c71e785fbf452f7de803ca1f207e6eae1f9dd3d5ae80  170075  2026-10-05  ELF 32-bit LSB executable, ARM, EABI4 version 1 (SYSV), stat
+30e0cb05a8c207c4084adaeb2906cbb8119b3d638999a73d4635e333e09cc0f6  159621  2026-10-05  ELF 32-bit LSB executable, ARM, version 1 (ARM), statically 
+dcac02c71bd67e7ce708e2fad709059b817ebdde9796542ef16855de5c7b9a41  152163  2026-10-05  ELF 32-bit LSB executable, ARM, version 1 (ARM), statically 
+111ba3f3d02d476fb5b64fe1c0cb67fdfeb1d6981d28f87a804edd915c32b02b  7798784  2026-10-05  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+215025030d96ffe466d5ca103d929e04e3876ab14059e54f85e5eaf01bb17148  29196288  2026-10-06  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+0fad00ddec16b67f3131aa4efffbe32d78fca178407895920b7549667d7bbfbf  6802  2026-10-07  Bourne-Again shell script, ASCII text executable
+7766739193c449206ea63751d23551e2057e4de80f6befaeb7a24eaeb63a5ee1  216011  2026-10-07  ELF 32-bit LSB executable, ARM, EABI4 version 1 (SYSV), stat
+98792483aed3a9e0105cdaca1d5208916c07c45e0c46229e221a753fe3db0d30  174490  2026-10-07  ELF 32-bit LSB executable, ARM, EABI4 version 1 (SYSV), stat
+b992e0488abed5c19f215626dee38cc4b7b92b918ab194e276924a462aa97c3f  163996  2026-10-07  ELF 32-bit LSB executable, ARM, version 1 (ARM), statically 
+d59a4194ec66b508697d67d71b69f74f590e8a8bb346507075b3ded56854a374  156450  2026-10-07  ELF 32-bit LSB executable, ARM, version 1 (ARM), statically 
+62aa24a3c6db58a1937ec12790ac107625f70086f7a87e4a5eb2f68bcbe56af8  2752512  2026-10-07  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+5e04a90e4b5a9dad7f18eca1761e6c99ef7454ad3489f04ed003eff5a845f617  1848  2026-10-10  Bourne-Again shell script, ASCII text executable
+03c77e109a9faa3e99b0f3e9b83eea4f5f7f030662c08c374cb37a04e92c74cc  55804  2026-10-10  ELF 32-bit LSB executable, ARM, version 1 (ARM), statically 
+467c7ed2badbf51cf9383eda657a9470511b7bdd66962503bf230d503f727aa8  3702784  2026-10-10  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+f01cac66a63b3bfd7409e4bceef30973a813f6ed4e99958313657449b1c7490f  229376  2026-10-11  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+a64fa8fd3a6e0639f7e091d412bf8da98bd5d037d757d144bea5d7a773431cd5  9502720  2026-10-13  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+9e46f95ad1ba5cdadd61cae5ba8dd1cd57ce62431abfbeed368afe37919fc0ab  27426816  2026-10-14  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+d9e90237914c2b57eadb9cfe85dbe617b9a1553e00b0c19dcc2b4312c71ab9a0  17956864  2026-10-16  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+9d0891f849ccc8c0eff4ea961702087eeeceeb00cff94a7cb0542839be3421f5  33947772  2026-10-17  ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), stat
+e59547abdff8019da736bcb8c252cbf5ce96b9695775031b10da334867b59b62  33751164  2026-10-17  ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), stat
+0cc42472a07cf14668e899b73adafe666d02495bf9349715613c8e7ba57244ea  33800316  2026-10-17  ELF 32-bit LSB executable, Intel i386, version 1 (SYSV), sta
+824fef8a40091fcebe8e8814a920f801b311ecf2e51d9b5c1dc605c240746c5e  31064064  2026-10-17  ELF 32-bit LSB executable, Intel i386, version 1 (SYSV), sta
+d570a1702448fac805fe39e9a49fd1ca24e4505161eec68cf6e7f5e2b6a34ce0  39846043  2026-10-17  ELF 32-bit LSB executable, MIPS, MIPS32 version 1 (SYSV), st
+8c21db937a85cf7ed804501cdfee7d1c543aa9a56d4d1187951b8f8048af1c10  39977115  2026-10-17  ELF 32-bit MSB executable, MIPS, MIPS32 version 1 (SYSV), st
+536a376337fed899e58a86baca1fc584d570be8e708b6c302cc6f24626dfcfd7  33095804  2026-10-17  ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), st
+12e9a971309479b7bc4aeff093b3baa0c06815700ad5f973f390f14afa88f2f8  30113792  2026-10-17  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+f458e5ad39f7137378b10fa6f3c50037d973284ad230d2080b49f08da7a31074  15138816  2026-10-17  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+0475f2831e60ac0b229f346036e339d20ad1d1165b005a89b634dc7c67318c74  36249724  2026-10-17  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+f5cf1b8ee8ddced3fb5e081dc1543669c3b62767c45da63002032da87632839d  40173692  2026-10-17  ELF 64-bit MSB executable, MIPS, MIPS-III version 1 (SYSV), 
+187b67e5e2116293144f4009b1f224ed09eea924dd4ade00741a66792a63b45a  1703936  2026-10-19  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+9e5b93d3095f577136717e6aae8b51fea50d66ef9123eedccfc23b8faebf6d6c  32768  2026-10-21  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+bac36910024afb012f125fe71354c6316c5c122688a92607756a69c7dab613bf  14319616  2026-10-21  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+42f9f668109e0e63bfbd83f803f9ea405bfe7490e553e9939f69bef3cbcd17b0  128800  2026-10-23  ELF 32-bit LSB executable, ARM, EABI4 version 1 (SYSV), stat
+759048c27735a2b308d10cc6eadede7d7a80f34a65a3ee26b3e6d21f4c6434a2  114940  2026-10-23  ELF 32-bit LSB executable, ARM, EABI4 version 1 (SYSV), stat
+0ebcd1947aba571454cb13ab97c23870b95a573f3f57f646ce19b03b5d193968  112252  2026-10-23  ELF 32-bit LSB executable, ARM, version 1 (ARM), statically 
+86e9d9cb8543c334f68ea59d6dff8284cec3e6d20391f3b236d373103f6730b7  108156  2026-10-23  ELF 32-bit LSB executable, ARM, version 1 (ARM), statically 
+4a1349dfc0edd9acaaef62d11e4a3cde0ab4bc97db9cc8f993fa83f9de188f13  1072  2026-10-23  POSIX shell script, ASCII text executable, with CRLF line te
+8c3879098dac778cd6af029b043f323a277da6c39d2a61f1b9d0a839d4a605d3  524288  2026-10-25  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+a0fa56fdcf2d06efec5ea6e1cda7df1f40b8c49e2610ac12334d14f75417a0b5  557056  2026-10-25  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+a151d3f4f2422531f30a843ffb35479596c86722bb103bdf8591105687f9b125  3373344  2026-10-25  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+fdc54d0e4bf1fa5247ef7801c0143c9ff55326ed853f2144b4f9f64a7a5b0de6  2031616  2026-10-25  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+dfff309c7c3eb4d037cfab4db378e3ab91cba2cf30e74c1db0715a336c906b7b  393216  2026-10-26  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+f2d28067948df3ba5410da3fb2ef41fc25c16884291cf5c4ef316ed7fb72fa5c  3538944  2026-10-27  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+e0f738920a5f0761b630dfaedae61cf0e74e9add9bce3b21d0c4065f9d145d29  11960320  2026-10-28  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+3261afc96b3aed7a30e338671b5c277e225ebff60fb2e1d25cbedf215317a23f  950272  2026-10-28  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+09e530e9cd3adefd1ddb9fefeaf32c1f309944fc22b242c4168e27e25e5e00b0  16842752  2026-10-29  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+228b0cc6406cf2f7d24aa3686cb6231c44134d0896bf7e11abddfa3c78f770b0  4325376  2026-10-30  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+9b246e86cfd2aa1402ce443bd1ac2c4d59e77d3d295579d67b2c61056421652a  786432  2026-10-30  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+fba55fd42a6cb14c417c3922d09fbcd105bdce13aff48ef908e6a201174a535d  1719760  2026-10-30  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+e948036f1c3b3024a6864fa1c49332c80e1fd28484cf487233a50154ffe104f8  131072  2026-10-31  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+21d40b62a55ab2204d844251bfddf80712771b70993a7028ef7eed639aea6f09  2581  2026-11-01  ASCII text
+d91e40c65b35e7b42b272e0abe78043be2f339f0c3a90b8b0a2908b9ca41ea1a  2581  2026-11-01  ASCII text
+62ac5413c4c1034722a606ed75936794bb2a3a450af4965873bbc4d35c833ed3  803688  2026-11-01  ELF 32-bit LSB executable, Intel i386, version 1 (SYSV), sta
+ced8308cfa7b628259da1f554532becd40ae17819b445d72f79a6667085e91d0  862256  2026-11-01  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+f905d5892f7a5b8c63f89b17cb5c762272e6177164c964737d429ed664acc1dd  1376256  2026-11-01  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+d462cf77758466a32f5e1bd09e33ad9ba7f88f44902610602e17da8924ee2da2  13565952  2026-11-02  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+eaf9adb4bb80316a3aafceabc0f2ed2aed7c76cf134b9b7c66226fc4f003aa97  360448  2026-11-02  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+7620e6a995b46fef7f2de8b214deceb27ef1a6cdd56ec05b763f0fcb30c4514b  2588672  2026-11-03  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+1b69d2cc75bfa119716e1d236a78eca27ccc99bf4c399a40fd2fd5abb5a1fef9  61029  2026-11-03  Perl script text executable
+6b2dcf3847f371233b995f81001414e2eeaa5a9aa68600c72b3851d6a5ebac1f  2055  2026-11-03  Perl script text executable
+2a23549e3b73111d473e87fbc1f43e45e8576018af325b96891b6046cadcb3e8  19922944  2026-11-04  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+4b0e90de6002ed0b98cf29b3d3deed6a1e18724a3d4dcc9bdc28c3ef596f2939  2555904  2026-11-04  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+a8a4c7376a27c9b5ad8cdc6a0fd970b77e28843b2a0349f4e1b49ad5bdcdf6d7  2981888  2026-11-04  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+15fe7954ffcdbac10e249a7626f23aee6622e1899839a0e09a9dfb03aabccc63  2457600  2026-11-05  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+3d9818d6bd896bb4131f9f4fe021cfb9672b5fd737432ffc554581fe96678fe3  2490368  2026-11-05  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+6bea366655450a4f777b9ca962a3ca19f0d519c3f4ee634e1b7e5be901eb4acb  458752  2026-11-05  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+5a0ad9c6e04897fff74fc9c0a2cabcd62115335c315d3c9b64c82641867f43c7  2359296  2026-11-06  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2  5  2026-11-07  ASCII text
+ea09d3cae042adabbc49eb127259419e171a561e028410ea69eca4a038f9f8a3  6127616  2026-11-08  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+f200744b6900aeb0a27df08c71fc28a7f07b0aee21e844beca214eb8c4ab58dd  884736  2026-11-08  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+080892ec55b13d0b0c887264f47d53e3a2e9654d086a5fff267edca439ef7200  1507328  2026-11-08  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+fc63257f8f03c7bc6c780073a0e6995b6c9ea6aa4397f3efc757b1680ede3aff  917504  2026-11-08  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statica
+d7f98e379c400c13340781ccb65017c000330824ea26680866b9d3e43d641721  65536  2026-11-09  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+1ef0eb60318495dd0cb100fc828f28237d487b800605c7cc54155cf34582598b  1277952  2026-11-10  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+72ce5b00ca4bfa0c18fcdf03a15e5391a85d81300783626598fe7e022e0ec538  327680  2026-11-13  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+eab19eae212e21881ca50c0d27396b84a08815626683feb24e3fac68e8e45395  28508160  2026-11-13  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+0743ef873d9f75d76a577fd70be5f9072c182c0e90d5205ee6ac889bb21f2e91  3  2026-11-14  ASCII text
+0dccf1eda66b8a0a77a50c45af9900b2baedceba78515dbf58f7d6f70ab73187  3  2026-11-14  ASCII text
+36a4aba0dcec23e926f0692065524808479c33f4501bae79348f8f005f10b21c  4  2026-11-14  ASCII text
+4e1fa6b546dfb1d21d1afb13d9156787ab8afa419dcf0e41526746326f16b6c5  6  2026-11-14  ASCII text
+7058299627365fc7a3dd7840fd3d56f29306cd30c0f2c13cb500fe79617290ff  2  2026-11-14  ASCII text
+7a99933b94394843950513a8bbaa21d33492b2b44fa34a88f2d4d0c3a97e2860  3  2026-11-14  ASCII text
+7cbcb9c4c3b7f5a1c0d251b95654cfa6ca9484c6527b9ad6cbc77931a7f8c21e  4  2026-11-14  ASCII text
+8fd60d90fb64f7dc5f348b5ec68084968877383dbfb38ec336139652e01916e9  5  2026-11-14  ASCII text
+acc883028c4a5605fb930776032a3c33aed611a0e98b9e7cdd9ceb5347956288  8  2026-11-14  ASCII text
+ad93bf9e1072eb43853b3a175cceceb5affe7a82558fdb77db3972fac89e1d38  3  2026-11-14  ASCII text
+bd0c0800e0285e44d41225d19e98e06785b51488aa6dfa9f1f82dd13ad195197  3  2026-11-14  ASCII text
+1a9ab8ac2712aaafe991ce5d3b177e42b460810dd8799535d4301498107dbfff  17104896  2026-11-14  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+3552f719a379865960a169e2dacea968f4e8f46bd31907f2f89df431d09d9d9e  3571712  2026-11-22  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+3974a1757c786c61c5cec40d6f3af66aec799459cc51af15dca88ac3c927115d  1409024  2026-11-23  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+c88e1dacce96cafa2038f7433fc9e42e7b26714c36e98ed59c483360a4b7cb58  720896  2026-11-24  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
+05107cd7d97c5735f95cf0460ce1da2db4631abbc167c0b21842949bdca6651c  6750208  2026-11-25  ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamic
