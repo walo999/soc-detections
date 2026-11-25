@@ -146,13 +146,14 @@ z aktualizacją z 18.09.
 | Typ | Liczba |
 |---|---|
 | ELF x86-64 | 65 |
+| ELF ARM, 32- i 64-bitowe | 26 |
 | tekst ASCII | 23 |
-| ELF ARM | 21 |
-| skrypt bash | 6 |
+| skrypty powłoki (bash, sh) | 8 |
 | ELF i386 | 4 |
-| inne, m.in. ELF MIPS | 18 |
+| ELF MIPS | 3 |
+| inne: skrypty Perl (2), klucze OpenSSH (2 publiczne, 1 prywatny), ELF RISC-V (1), pliki puste lub prawie puste (2) | 8 |
 
-Zestaw architektur — x86-64, ARM, MIPS, i386 — jest typowy dla botnetów, które
+Zestaw architektur — x86-64, ARM, MIPS, i386, RISC-V — jest typowy dla botnetów, które
 jedną kampanią celują jednocześnie w serwery i urządzenia sieciowe. Trzy
 największe pliki, po ok. 38 MB, to prawdopodobnie warianty jednego programu dla
 różnych odmian MIPS, przechwycone tego samego dnia (17.10). Na liście jest też
