@@ -100,3 +100,21 @@
     <mitre><id>T1082</id></mitre>
   </rule>
 </group>
+
+<group name="cowrie,honeypot,ingress,">
+  <rule id="100109" level="12">
+    <if_sid>100100</if_sid>
+    <field name="eventid" type="pcre2">^cowrie\.session\.file_upload$</field>
+    <description>Honeypot: plik $(filename) przeslany kanalem SCP/SFTP przez $(src_ip)</description>
+    <mitre><id>T1105</id></mitre>
+  </rule>
+</group>
+
+<group name="cowrie,honeypot,evasion,">
+  <rule id="100112" level="5">
+    <if_sid>100103</if_sid>
+    <field name="input" type="pcre2">check_[0-9a-f]{32}_(small_|transport_done)|===SHELL_BEHAVIOR===</field>
+    <description>Honeypot: test autentycznosci powloki przez $(src_ip)</description>
+    <mitre><id>T1497.001</id></mitre>
+  </rule>
+</group>

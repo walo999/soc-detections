@@ -13,6 +13,7 @@ z powodu błędów w samej polityce oceny.
 |---|---|---|---|
 | Przed remediacją (01.10.2026) | 100 | 90 | — |
 | Po remediacji (01.10.2026) | **66** | **124** | **65%** |
+| Zamknięcie projektu (25.11.2026) | 66 | 124 | 65% |
 
 Domkniętych 34 kontrole. Pozostałe 66 rozkładają się tak:
 

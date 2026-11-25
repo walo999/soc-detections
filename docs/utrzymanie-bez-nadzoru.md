@@ -82,6 +82,25 @@ Raport dzienny podaje liczbę zainstalowanych pakietów i informację, czy resta
 jest potrzebny — więc zmiana tego stanu z dnia na dzień jest widoczna w historii
 powiadomień, a nie tylko na maszynie.
 
+## Wynik: 56 dni bez nadzoru (01.10 – 25.11.2026)
+
+| Mechanizm | Wynik |
+|---|---|
+| `soc-kontrola.sh` | 1 332 uruchomienia, wszystkie `kontrola: OK` |
+| `soc-wartownik.sh` | 56 przebiegów, za każdym razem „bez zmian” |
+| `soc-canary.sh` | zdarzenie kontrolne w indeksie w 54 dniach na 55 |
+| `soc-utrzymanie.sh`, `soc-raport.sh` | po 56 uruchomień bez błędu |
+| `unattended-upgrades` | 96 aktualizacji pakietów, pięć automatycznych restartów o 04:30 |
+
+Jedyna awaria — 04.10 zdarzenie kontrolne nie dotarło do indeksu — została
+wykryta i zgłoszona przez sam mechanizm. Kontrola godzinowa przechodziła tego
+dnia, więc zawiódł pojedynczy sygnał, nie potok.
+
+Wniosek dla projektowania takich mechanizmów: **skrypt kontrolny zakończył się
+poprawnie także w dniu awarii**, bo wykrył problem i wysłał powiadomienie. Kod
+wyjścia mówi, czy kontrola się wykonała, a nie, jaki dała wynik — wynik trzeba
+czytać z jej treści.
+
 ## Czego te mechanizmy nie zapewniają
 
 Nie zastępują kopii zapasowej całej maszyny — tę robi migawka u dostawcy.
